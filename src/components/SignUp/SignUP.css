@@ -1,0 +1,68 @@
+.login {
+    width: 400px;
+    margin: 100px auto 0;
+    margin-bottom: 100px;
+}
+.login h1 {
+    font-size: 31px;
+}
+.login .name {
+    display: flex;
+    gap: 30px;
+}
+.login .name input {
+    width: 196px;
+}
+.login form {
+    margin-top: 20px;
+    width: 421px;
+}
+.login form .input {
+    display: flex;
+    flex-direction: column;
+}
+.login form .input input {
+    padding: 20px;
+}
+.login form .input p {
+    margin: 7px 10px 0;
+    color: red;
+}
+/* .login form input:focus {
+    outline: 1px solid #9C27B0;
+}
+.login button {
+    margin-top: 10px;
+    padding: 12px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #9C27B0;
+} */
+.login p{
+    margin: 10xp 0;
+}
+.login p span {
+    cursor: pointer;
+    font-weight: bold;
+    color: blue;
+}
+
+
+@media (max-width:600px){
+    .login {
+        width: 350px;
+    }
+    .login form {
+        width: 350px;
+    }
+    .login form .name {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .login .name input {
+        width: 100%;
+    }
+}

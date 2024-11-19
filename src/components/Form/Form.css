@@ -1,0 +1,27 @@
+form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 10px auto;
+
+}
+form input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+form textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+    outline: none;
+}
+form button{
+    
+}

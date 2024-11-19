@@ -1,0 +1,53 @@
+:root {
+    --main-color: #000;
+}
+.login {
+    width: 400px;
+    margin: 100px auto 0;
+}
+.login .name {
+    display: flex;
+    gap: 30px;
+}
+.login form {
+    margin-top: 20px;
+    width: 400px;
+}
+.login form input {
+    padding: 20px;
+}
+.login form input:focus {
+    outline: 1px solid var(--main-color) !important;
+}
+.login button {
+    margin-top: 10px;
+    padding: 12px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--main-color);
+}
+.login p{
+    margin: 10xp 0;
+}
+.login p span {
+    cursor: pointer;
+    font-weight: bold;
+    color: blue;
+}
+
+
+@media (max-width:600px){
+    .login {
+        width: 350px;
+    }
+    .login form {
+        width: 350px;
+    }
+    .login form .name {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

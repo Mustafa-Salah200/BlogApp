@@ -1,0 +1,55 @@
+.details {
+  padding: 20px var(--main-padding);
+}
+.details h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.details .user-D {
+  margin: 20px 0;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.details .image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #eee;
+}
+.details p {
+  margin: 20px;
+  color: #333;
+}
+.details .user-D h4 {
+  margin: 5px 0;
+}
+.details .user-D .more button {
+  font-weight: bold;
+  color: #009876;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #009876;
+  padding: 4px 10px;
+}
+.details .feedback {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  padding: 10px 5px;
+  margin: 30px 0;
+}
+.details .feedback .left div,
+.details .feedback .left,
+.details .feedback .right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+@media (max-width: 600px) {
+  .details .user-D h4 {
+    display: none;
+  }
+}

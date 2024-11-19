@@ -1,0 +1,78 @@
+.writeBlog {
+    width: 400px;
+    margin: 65px auto 0;
+}
+.blog-nav {
+    display: flex;
+    margin: 0 auto 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog-nav button.publish ,
+.blog-nav button.back {
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 13px;
+    font-weight: bold;
+}
+.blog-nav button.publish {
+    background-color: #9C27B0;
+}
+.blog-nav button.back {
+    background-color: #7777774f;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    svg {
+        width: 10px;
+    }
+}
+.writeBlog .categories {
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+.writeBlog .categories div {
+    position: relative;
+}
+.writeBlog .categories h3 {
+    cursor: pointer;
+    padding: 10px 15px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+.writeBlog .categories ul {
+    position: absolute;
+    list-style: none;
+    background-color: #eee;
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    color: #777;
+}
+.writeBlog .categories ul li {
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.writeBlog .categories ul li:hover {
+    color: #000;
+    background-color: #7777771c;
+}
+.error {
+    background-color: #ff000042;
+    box-shadow: 0px 1px 3px 0px red;
+    padding: 10px;
+    color: #6e0b0b;
+    border-radius: 5px;
+}

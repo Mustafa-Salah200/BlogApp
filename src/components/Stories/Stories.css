@@ -1,0 +1,25 @@
+.stories {
+    padding: 20px var(--main-padding);
+}
+.stories .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid #7777;
+    margin-bottom: 20px;
+}
+.stories button {
+    padding: 10px 13px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #009688;
+}
+.my-stories p{
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0;
+}
